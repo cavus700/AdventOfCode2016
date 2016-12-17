@@ -27,7 +27,10 @@
     <ClInclude Include="Day1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Day.h">
+    <ClInclude Include="Day2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AoCDay.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -39,6 +42,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Day1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

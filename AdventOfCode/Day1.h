@@ -1,5 +1,5 @@
 #pragma once
-#include "Day.h"
+#include "AoCDay.h"
 
 class Day1 : public AoCDay
 {

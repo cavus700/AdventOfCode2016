@@ -28,6 +28,7 @@
 *.out
 *.app
 
+*.opendb
 ipch/*
 AdventOfCode/Debug/*
 Debug/*

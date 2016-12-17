@@ -8,8 +8,10 @@
 #include <string>
 
 #include "Day1.h"
+#include "Day2.h"
 
-#define INPUT_TEXT "../input/day1a.txt"
+//#define INPUT_TEXT "../input/day1.txt"
+#define INPUT_TEXT "../input/day2.txt"
 
 using namespace std;
 
@@ -27,7 +29,9 @@ int main(int argc, char** argv)
 
 	reader.close();
 
-	Day1 day;
+	//Day1 day;
+	Day2 day;
+	
 	day.startA(input);
 	day.startB(input);
 
