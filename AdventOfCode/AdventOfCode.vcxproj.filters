@@ -51,6 +51,9 @@
     <ClInclude Include="Day6.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Day7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -78,6 +81,9 @@
       <Filter>libs</Filter>
     </ClCompile>
     <ClCompile Include="day6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day7.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
