@@ -17,5 +17,6 @@ private:
 
 	void parseIPv7(string ip, IPv7& ipv7);
 	bool isIPv7(IPv7& ipv7);
+	bool hasSSL(IPv7& ipv7);
 };
 
