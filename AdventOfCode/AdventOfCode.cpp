@@ -11,11 +11,15 @@
 #include "Day2.h"
 #include "Day3.h"
 #include "Day4.h"
+#include "Day5.h"
+#include "Day6.h"
 
 //#define INPUT_TEXT "../input/day1.txt"
 //#define INPUT_TEXT "../input/day2.txt"
 //#define INPUT_TEXT "../input/day3.txt"
-#define INPUT_TEXT "../input/day4.txt"
+//#define INPUT_TEXT "../input/day4.txt"
+//#define INPUT_TEXT "../input/day5.txt"
+#define INPUT_TEXT "../input/day6.txt"
 
 using namespace std;
 
@@ -36,7 +40,9 @@ int main(int argc, char** argv)
 	//Day1 day;
 	//Day2 day;
 	//Day3 day;
-	Day4 day;
+	//Day4 day;
+	//Day5 day;
+	Day6 day;
 
 	day.startA(input);
 	day.startB(input);

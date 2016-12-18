@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{95ec86a1-d3ba-49e0-a1b7-76cea86d8b92}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -39,6 +42,15 @@
     <ClInclude Include="Day4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Day5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="Day6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -57,6 +69,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Day4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="day6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
