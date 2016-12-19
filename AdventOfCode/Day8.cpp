@@ -46,7 +46,7 @@ void Day8::startB(vector<string> input)
 void Day8::parseCommands(vector<string>& input, vector<operation>& operations)
 {
 	string tmp;
-	std::string delimiter = "x";
+	string delimiter = "x";
 
 	for (string in : input) {
 		stringstream stream(in);
