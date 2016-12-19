@@ -49,7 +49,7 @@ void Day9::startA(vector<string> input)
 
 void Day9::startB(vector<string> input)
 {
-	long length = 0;
+	unsigned long long length = 0;
 	string text = input[0];
 	string mark;
 
