@@ -17,6 +17,21 @@ private:
 		int repeat;
 	};
 
+	struct compressed_string {
+		compressed_string() {
+			range = repeat = 0;
+			text = "";
+		}
+		compressed_string(string s) {
+			text = s;
+			range = repeat = 0;
+		}
+		int range;
+		int repeat;
+		string text;
+	};
 	marker parseMarker(string);
+	long decompress(compressed_string);
+	vector<compressed_string> parseSequences(string compressee);
 };
 
