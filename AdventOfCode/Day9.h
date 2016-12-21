@@ -31,7 +31,7 @@ private:
 		string text;
 	};
 	marker parseMarker(string);
-	long decompress(compressed_string);
+	int64_t decompress(compressed_string);
 	vector<compressed_string> parseSequences(string compressee);
 };
 

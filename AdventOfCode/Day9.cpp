@@ -49,7 +49,7 @@ void Day9::startA(vector<string> input)
 
 void Day9::startB(vector<string> input)
 {
-	unsigned long long length = 0;
+	int64_t length = 0;
 	string text = input[0];
 	
 	vector<compressed_string> sequence = parseSequences(text);
@@ -80,11 +80,11 @@ Day9::marker Day9::parseMarker(string mark)
 	return marker;
 }
 
-long Day9::decompress(compressed_string compressed)
+int64_t Day9::decompress(compressed_string compressed)
 {
 	string mark;
 	marker marker;
-	long result = 0;
+	int64_t result = 0;
 	
 	if (compressed.text.find_first_of('(') == 0) {
 		mark = compressed.text.substr(1, compressed.text.find_first_of(')') - 1);
