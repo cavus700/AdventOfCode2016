@@ -16,8 +16,8 @@
 #include "Day7.h"
 #include "Day8.h"
 #include "Day9.h"
-//#include "Day10.h"
-//#include "Day11.h"
+#include "Day10.h"
+#include "Day11.h"
 //#include "Day12.h"
 //#include "Day13.h"
 //#include "Day14.h"
@@ -41,9 +41,9 @@
 //#define INPUT_TEXT "../input/day6.txt"
 //#define INPUT_TEXT "../input/day7.txt"
 //#define INPUT_TEXT "../input/day8.txt"
-#define INPUT_TEXT "../input/day9.txt"
+//#define INPUT_TEXT "../input/day9.txt"
 //#define INPUT_TEXT "../input/day10.txt"
-//#define INPUT_TEXT "../input/day11.txt"
+#define INPUT_TEXT "../input/day11.txt"
 //#define INPUT_TEXT "../input/day12.txt"
 //#define INPUT_TEXT "../input/day13.txt"
 //#define INPUT_TEXT "../input/day14.txt"
@@ -85,9 +85,9 @@ int main(int argc, char** argv)
 	//Day6 day;
 	//Day7 day;
 	//Day8 day;
-	Day9 day;
+	//Day9 day;
 	//Day10 day;
-	//Day11 day;
+	Day11 day;
 	//Day12 day;
 	//Day13 day;
 	//Day14 day;
