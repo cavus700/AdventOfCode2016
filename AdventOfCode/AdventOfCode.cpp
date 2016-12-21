@@ -60,12 +60,14 @@
 //#define INPUT_TEXT "../input/day25.txt"
 
 using namespace std;
+using namespace chrono;
 
 int main(int argc, char** argv)
 {
 	vector<string> input;
 	string tmpIn;
 	ifstream reader(INPUT_TEXT);
+	time_point<high_resolution_clock> start, end;
 
 	if (!reader.is_open())
 		return -1;
@@ -100,10 +102,19 @@ int main(int argc, char** argv)
 	//Day23 day;
 	//Day24 day;
 	//Day25 day;
-
+	
+	start = chrono::high_resolution_clock::now();
 	day.startA(input);
-	day.startB(input);
+	end = chrono::high_resolution_clock::now();
+	duration<float> secs = end - start;
+	cout << "Part A lasted " << secs.count() << " seconds or " << duration_cast<milliseconds>(secs).count() << " milliseconds." << endl << endl;
 
+	start = chrono::high_resolution_clock::now();
+	day.startB(input);
+	end = chrono::high_resolution_clock::now();
+	secs = end - start;
+	cout << "Part B lasted " << secs.count() << " seconds or " << duration_cast<milliseconds>(secs).count() << " milliseconds." << endl << endl;
+	
 	system("pause");
 	return 0;
 }
