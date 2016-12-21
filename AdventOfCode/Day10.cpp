@@ -125,7 +125,7 @@ bool Day10::Bot::addChip(chip_t a_chip)
 	if (m_chips.isFull()) {
 		if (m_chips.isSearchedCombi()) {
 			cout << "A: Bot " << m_id << " compared chips with value 61 and value 17!" << endl << endl;;
-			//return true;
+			return true;
 		}
 		if (m_toLowIsOutput) {
 			if (m_giveLowerTo >= 0 && m_giveLowerTo < 3) {

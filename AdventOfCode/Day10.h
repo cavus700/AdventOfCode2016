@@ -25,8 +25,6 @@ private:
 	vector<Bot*> m_bots;
 	vector<order> m_orders;
 	
-
-
 	struct chipTuple {
 		chipTuple() {
 			lower = higher = -1;
