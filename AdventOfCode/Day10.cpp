@@ -147,4 +147,6 @@ bool Day10::Bot::addChip(chip_t a_chip)
 
 		return false;
 	}
+
+	return false;
 }
