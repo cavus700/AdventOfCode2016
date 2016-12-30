@@ -47,10 +47,18 @@ void Day9::startA(vector<string> input)
 	cout << "A: The lenght of the decompressed data is: " << result.size() << endl << endl;
 }
 
+void trim_right(string& text) {
+	while (text.back() == '\n' || text.back() == '\r') {
+		text.pop_back();
+	}
+}
+
 void Day9::startB(vector<string> input)
 {
 	int64_t length = 0;
 	string text = input[0];
+
+	trim_right(text);
 	
 	vector<compressed_string> sequence = parseSequences(text);
 	
